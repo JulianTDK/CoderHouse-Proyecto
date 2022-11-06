@@ -1,0 +1,38 @@
+footer .container-fluid {
+    background-color: #dec074;
+    text-align: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+#footer_ubicacion,
+#footer_telefonos {
+    display: flex;
+    flex-direction: column;
+    color: #1e1e1e;
+}
+
+#footer_redes {
+    display: flex;
+    flex-direction: column;
+    color: #1e1e1e;
+
+    a {
+        color: #1e1e1e;
+        text-decoration: none;
+    }
+}
+
+#footer_interes {
+    color: #1e1e1e;
+
+    a {
+        color: #1e1e1e;
+        text-decoration: none;
+    }
+}
+
+footer ul {
+    list-style-type: none;
+    margin-right: 20px;
+}
