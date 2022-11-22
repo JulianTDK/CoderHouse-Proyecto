@@ -64,10 +64,15 @@ footer ul {
   margin-right: 20px;
 }
 
+footer h6 {
+  font-size: 40px;
+}
+
 body {
+  color: aliceblue;
+  font-family: "Karla", sans-serif;
   margin: 0;
   background-color: #1e1e1e;
-  font-family: "Karla", sans-serif;
   padding: 0;
   box-sizing: border-box;
 }

@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 @import "header", "footer";
 
+@mixin text(){
+    color: aliceblue;
+    font-family: "Karla", sans-serif;
+}
+
 body {
+    @include text;
     margin: 0;
     background-color: #1e1e1e;
-    font-family: "Karla", sans-serif;
     padding: 0;
     box-sizing: border-box;
      
